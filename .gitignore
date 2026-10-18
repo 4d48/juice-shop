@@ -1,0 +1,34 @@
+cat > .gitignore << 'EOF'
+# Залежності
+node_modules/
+frontend/node_modules/
+
+# Результати збірки (кожен збирає локально через npm run build)
+build/
+dist/
+frontend/dist/
+*.tsbuildinfo
+
+# Логи
+logs/
+*.log
+npm-debug.log*
+
+# Секрети та локальні налаштування
+.env
+.env.*
+!.env.example
+
+# Тимчасові файли й кеш
+.cache/
+tmp/
+coverage/
+.nyc_output/
+
+# IDE та ОС
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+EOF
