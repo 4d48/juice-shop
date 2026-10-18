@@ -1,0 +1,16 @@
+{
+    "keepSettings": {
+        "type": 1,
+        "amount": 2
+    },
+    "auditFilename": "logs/audit.json",
+    "hashType": "md5",
+    "extension": "",
+    "files": [
+        {
+            "date": 1791110113481,
+            "name": "/home/x4d47/Documents/НУЛП/4 курс/Безпека програмного забезпечення/juice-shop_20.2.0/logs/access.log.2026-10-04",
+            "hash": "e47849245e56d0719859841567b7e13d"
+        }
+    ]
+}
