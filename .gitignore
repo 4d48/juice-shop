@@ -9,6 +9,12 @@ dist/
 frontend/dist/
 *.tsbuildinfo
 
+# Локальна база даних (створюється при запуску)
+data/*.sqlite
+data/*.sqlite-journal
+data/*.sqlite-wal
+data/*.sqlite-shm
+
 # Логи
 logs/
 *.log
